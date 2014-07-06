@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [net.bigpoint.assessment.gasstation.implementation.StationImplTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="net.bigpoint.assessment.gasstation.implementation.StationImplTest">
+        <methods>
+          <include name="testGasPumps"/>
+          <include name="setUp"/>
+          <include name="testBuyGas"/>
+          <include name="testBuyGasDepleted"/>
+        </methods>
+      </class> <!-- net.bigpoint.assessment.gasstation.implementation.StationImplTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [net.bigpoint.assessment.gasstation.implementation.StationImplTest] -->
